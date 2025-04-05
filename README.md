@@ -133,8 +133,8 @@ I'm currently working on driver safety, multi-modal AI, and LLM-powered tools as
   
 ## 📬 Connect with Me
 
-[![Email](https://img.shields.io/badge/Email-aliarfa.dev%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aliarfa.dev@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ali-arfa)
+[![Email](https://img.shields.io/badge/Email-aliarfa.dev%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aliarfa852@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aliarfa852)
 
 <img src="https://komarev.com/ghpvc/?username=AliArfa852&color=brightgreen&style=flat-square" alt="Profile views"/>
 
