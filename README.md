@@ -51,12 +51,12 @@ I'm currently working on driver safety, multi-modal AI, and LLM-powered tools as
       </ul>
     </td>
     <td width="50%">
-      <h3 align="center">📡 NetMon - Network Traffic Monitor</h3>
+      <h3 align="center">🤖 Cognitive Chatbot</h3>
       <ul>
-        <li>Live C++ + Flask system for packet sniffing & visualization</li>
-        <li>Captures packets using libpcap/WinPcap</li>
-        <li>Tracks protocol flow in real time</li>
-        <li>Web-based dashboard with dynamic updates</li>
+        <li>Conversational AI assistant with domain-specific knowledge</li>
+        <li>Built with LangChain, Vector DB, and custom embeddings</li>
+        <li>Features multi-turn context retention and query refinement</li>
+        <li>Deployed via containerized microservices architecture</li>
       </ul>
     </td>
   </tr>
