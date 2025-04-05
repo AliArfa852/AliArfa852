@@ -13,7 +13,7 @@
 
 ---
 
-Welcome to my GitHub! I work at the intersection of AI, Edge Computing, and Embedded Systems, building real-time, intelligent solutions that thrive in constrained environments—from NVIDIA Jetson to Raspberry Pi.
+Welcome to my GitHub! I work at the intersection of AI, Edge Computing, and Embedded Systems, building real-time, intelligent solutions that thrive in constrained environments—from NVIDIA Jetson to Raspberry Pi 5.
 
 I'm currently working on driver safety, multi-modal AI, and LLM-powered tools as part of my final year project and ongoing R&D in the KDD lab. My goal? Make tech smarter, faster, and more accessible—especially for real-world impact in developing regions.
 
