@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-  <h3>💻  Edge + LLM Enthusiast | Full Stack Engineer | Embedded AI Researcher </h3>
+  <h3>💻  Edge + LLM Enthusiast | Embedded AI Researcher | Full Stack Engineer </h3>
 </div>
 
 ---
