@@ -8,7 +8,7 @@
 </div>
 
 <div align="center">
-  <h3>💻 Full Stack Engineer | Embedded AI Researcher | Edge + LLM Enthusiast</h3>
+  <h3>💻  Edge + LLM Enthusiast | Full Stack Engineer | Embedded AI Researcher </h3>
 </div>
 
 ---
@@ -25,15 +25,16 @@ I'm currently working on driver safety, multi-modal AI, and LLM-powered tools as
 - Developing multi-modal pipelines (video + sensor + text)
 - Quantizing & distilling models for efficient edge deployment
 
+### 🔧 Embedded & Edge AI
+- C/C++ for performance-critical systems
+- ML on the edge: Jetson Nano, ESP32, Raspberry Pi, OBD-II
+- Camera-based vision + sensor fusion for low-latency alerts and tracking
+
 ### 🌐 Full Stack Engineering
 - **Backend**: FastAPI, Flask, Node.js
 - **Frontend**: React, Tailwind, Next.js
 - Real-time ML/IoT dashboards via WebSockets, Flask-SocketIO, and Plotly/D3
 
-### 🔧 Embedded & Edge AI
-- C/C++ for performance-critical systems
-- ML on the edge: Jetson Nano, ESP32, Raspberry Pi, OBD-II
-- Camera-based vision + sensor fusion for low-latency alerts and tracking
 
 ---
 
