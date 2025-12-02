@@ -68,24 +68,24 @@
     <!-- DVD logo shape -->
     <rect x="20" y="20" width="60" height="60" rx="6" fill="url(#pcg)">
       <!-- Diagonal bounce path within bounding box -->
-      <animateMotion dur="6s" repeatCount="indefinite" 
+      <animateMotion dur="15s" repeatCount="indefinite" 
         path="M 20,20 L 300,50 L 20,80 L 300,110 L 20,140 L 300,170 L 20,200 L 300,200 L 20,170 L 300,140 L 20,110 L 300,80 L 20,50 L 300,20 Z"/>
       <!-- Rotation on bounce -->
       <animateTransform attributeName="transform" type="rotate" 
         values="0 50 50; 45 50 50; 90 50 50; 135 50 50; 180 50 50; 225 50 50; 270 50 50; 315 50 50; 360 50 50" 
-        dur="6s" repeatCount="indefinite"/>
+        dur="15s" repeatCount="indefinite"/>
     </rect>
     <!-- Trail effect -->
     <rect x="20" y="20" width="60" height="60" rx="6" fill="url(#pcg)" opacity="0.4">
-      <animateMotion dur="6s" repeatCount="indefinite" 
+      <animateMotion dur="15s" repeatCount="indefinite" 
         path="M 20,20 L 300,50 L 20,80 L 300,110 L 20,140 L 300,170 L 20,200 L 300,200 L 20,170 L 300,140 L 20,110 L 300,80 L 20,50 L 300,20 Z"
-        begin="0.2s"/>
+        begin="0.5s"/>
     </rect>
     <!-- Second trail -->
     <rect x="20" y="20" width="60" height="60" rx="6" fill="url(#pcg)" opacity="0.2">
-      <animateMotion dur="6s" repeatCount="indefinite" 
+      <animateMotion dur="15s" repeatCount="indefinite" 
         path="M 20,20 L 300,50 L 20,80 L 300,110 L 20,140 L 300,170 L 20,200 L 300,200 L 20,170 L 300,140 L 20,110 L 300,80 L 20,50 L 300,20 Z"
-        begin="0.4s"/>
+        begin="1s"/>
     </rect>
   </g>
 
@@ -109,11 +109,5 @@
     </g>
   </g>
 
-  <!-- small icon -->
-  <!-- <g transform="translate(750,40)" opacity="0.95">
-    <rect width="140" height="120" rx="12" fill="rgba(255,255,255,0.03)"/>
-    <text x="16" y="40" class="pill">Edge</text>
-    <text x="16" y="70" class="pill">Real-time</text>
-  </g> -->
 </svg>
 

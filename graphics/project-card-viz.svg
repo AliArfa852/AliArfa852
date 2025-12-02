@@ -56,12 +56,12 @@
     </circle>
   </g>
   <!-- Rolling egg shape - reacts to scroll and mouse (40% left section) -->
-  <g opacity="0.98">
+  <g opacity="0.98" id="eggGroup">
     <!-- Egg shape -->
-    <ellipse cx="180" cy="64" rx="50" ry="65" fill="url(#pc3g)">
+    <ellipse cx="180" cy="120" rx="50" ry="65" fill="url(#pc3g)" id="eggMain">
       <!-- Rolling rotation -->
       <animateTransform attributeName="transform" type="rotate" 
-        values="0 180 64; 360 180 64" dur="10s" repeatCount="indefinite"/>
+        values="0 180 120; 360 180 120" dur="10s" repeatCount="indefinite"/>
       <!-- Rolling movement (simulating scroll) -->
       <animateTransform attributeName="transform" type="translate" 
         values="0,0; 80,-30; -60,40; 70,35; -80,-20; 0,0" 
@@ -71,9 +71,57 @@
         values="0; 5; -5; 3; -3; 0" dur="6s" repeatCount="indefinite" additive="sum"/>
     </ellipse>
     <!-- Egg highlight -->
-    <ellipse cx="180" cy="50" rx="30" ry="20" fill="rgba(255,255,255,0.2)">
+    <ellipse cx="180" cy="106" rx="30" ry="20" fill="rgba(255,255,255,0.2)">
       <animateTransform attributeName="transform" type="rotate" 
-        values="0 180 64; 360 180 64" dur="10s" repeatCount="indefinite"/>
+        values="0 180 120; 360 180 120" dur="10s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" 
+        values="0,0; 80,-30; -60,40; 70,35; -80,-20; 0,0" 
+        dur="8s" repeatCount="indefinite" additive="sum"/>
+    </ellipse>
+    
+    <!-- Crack animation (simulating cursor hover) - triggers every 8 seconds -->
+    <g id="crackGroup" opacity="0">
+      <!-- Crack lines -->
+      <path d="M 180 120 L 200 100 M 180 120 L 160 100 M 180 120 L 190 140 M 180 120 L 170 140" 
+            stroke="#fff" stroke-width="3" opacity="0.8">
+        <animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="translate" 
+          values="0,0; 80,-30; -60,40; 70,35; -80,-20; 0,0" 
+          dur="8s" repeatCount="indefinite" additive="sum"/>
+      </path>
+      <!-- Broken pieces -->
+      <ellipse cx="160" cy="100" rx="15" ry="20" fill="url(#pc3g)" opacity="0.9">
+        <animate attributeName="opacity" values="0;0.9;0" dur="8s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="translate" 
+          values="0,0; -20,-15; 0,0" dur="8s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="rotate" 
+          values="0 160 100; -30 160 100; 0 160 100" dur="8s" repeatCount="indefinite" begin="0s" additive="sum"/>
+      </ellipse>
+      <ellipse cx="200" cy="100" rx="15" ry="20" fill="url(#pc3g)" opacity="0.9">
+        <animate attributeName="opacity" values="0;0.9;0" dur="8s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="translate" 
+          values="0,0; 20,-15; 0,0" dur="8s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="rotate" 
+          values="0 200 100; 30 200 100; 0 200 100" dur="8s" repeatCount="indefinite" begin="0s" additive="sum"/>
+      </ellipse>
+      <ellipse cx="170" cy="140" rx="12" ry="18" fill="url(#pc3g)" opacity="0.9">
+        <animate attributeName="opacity" values="0;0.9;0" dur="8s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="translate" 
+          values="0,0; -15,20; 0,0" dur="8s" repeatCount="indefinite" begin="0s"/>
+      </ellipse>
+      <ellipse cx="190" cy="140" rx="12" ry="18" fill="url(#pc3g)" opacity="0.9">
+        <animate attributeName="opacity" values="0;0.9;0" dur="8s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="translate" 
+          values="0,0; 15,20; 0,0" dur="8s" repeatCount="indefinite" begin="0s"/>
+      </ellipse>
+    </g>
+    
+    <!-- Main egg hides during crack -->
+    <ellipse cx="180" cy="120" rx="50" ry="65" fill="url(#pc3g)">
+      <animate attributeName="opacity" values="1;0;0;1" dur="8s" repeatCount="indefinite" 
+        keyTimes="0;0.1;0.3;1" calcMode="linear"/>
+      <animateTransform attributeName="transform" type="rotate" 
+        values="0 180 120; 360 180 120" dur="10s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" 
         values="0,0; 80,-30; -60,40; 70,35; -80,-20; 0,0" 
         dur="8s" repeatCount="indefinite" additive="sum"/>
