@@ -1,14 +1,17 @@
 # <div align="center">👋 Hi, I'm Ali Arfa</div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/AI%20Engineer-blue?style=for-the-badge" alt="AI Engineer"/>
-  <img src="https://img.shields.io/badge/Edge%20Computing-orange?style=for-the-badge" alt="Edge Computing"/>
-  <img src="https://img.shields.io/badge/LLM%20Specialist-green?style=for-the-badge" alt="LLM Specialist"/>
-  <img src="https://img.shields.io/badge/Embedded%20Systems-red?style=for-the-badge" alt="Embedded Systems"/>
+  
+  <img src="https://img.shields.io/badge/AI%20Voice%20%26%20Agents-6366F1?style=for-the-badge&logoColor=white" alt="AI Voice & Agents"/>
+  <img src="https://img.shields.io/badge/LLM%20Agents-10B981?style=for-the-badge&logoColor=white" alt="LLM Agents"/>
+  <img src="https://img.shields.io/badge/Data%20Science-3B82F6?style=for-the-badge&logoColor=white" alt="Data Science"/>
+  <img src="https://img.shields.io/badge/Edge%20Computing-F59E0B?style=for-the-badge&logoColor=white" alt="Edge Computing"/>
+  <img src="https://img.shields.io/badge/Full%20Stack-8B5CF6?style=for-the-badge&logoColor=white" alt="Full Stack"/>
+  
 </div>
 
 <div align="center">
-  <h3>💻  Edge + LLM Enthusiast | Embedded AI Researcher | Full Stack Engineer </h3>
+  <h3>🤖 AI Voice & LLM Agents Engineer | 🤖 Autonomous Agents Specialist | 📊 Data Scientist | ⚡ Edge Computing Specialist | 💻 Full Stack Developer </h3>
 </div>
 
 ---
