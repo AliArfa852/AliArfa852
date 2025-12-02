@@ -16,34 +16,22 @@
 
 </div>
 
----
-
 <!-- ========================= -->
 <!--     ABOUT SECTION         -->
 <!-- ========================= -->
 
 ## ✨ About Me
 
-I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal pipelines**, and **edge computing**.  
-My work ranges from **production-grade AI voice systems** to **Jetson-powered driver safety intelligence**, with a focus on **fast, efficient, deployable models**.
+I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal pipelines**, and **edge computing**. My work ranges from **production-grade AI voice systems** to **Jetson-powered driver safety intelligence**, with a focus on **fast, efficient, deployable models**.
 
-🏅 **3× Gold Medalist** — National AI Competitions  
-🏅 **2× Runner-Up** — AI Product Innovation  
+**🏅 3× Gold Medalist** — National AI Competitions | **🏅 2× Runner-Up** — AI Product Innovation  
 ⚡ Specializing in autonomous agents, inference optimization, and embedded intelligence.
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/divider-animated.svg" width="100%" alt="divider"/>
-</p>
-
----
 
 <!-- ========================= -->
 <!--      SKILLS SECTION       -->
 <!-- ========================= -->
 
-## 🛠️ Core Skills (Animated Grid)
+## 🛠️ Core Skills
 
 <div align="center">
 
@@ -55,63 +43,50 @@ My work ranges from **production-grade AI voice systems** to **Jetson-powered dr
 
 </div>
 
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/divider-animated-2.svg" width="100%" alt="divider"/>
-</p>
-
----
-
 <!-- ========================= -->
 <!--     FEATURED PROJECTS     -->
 <!-- ========================= -->
 
 ## 🚀 Featured Projects
 
-### 🛣️ **Enhanced Driver Assist (EDA)**  
-
-⚙️ *Edge AI • Jetson Nano • Computer Vision • OBD-II Fusion*  
-Responsive dual-camera safety system detecting fatigue, distraction & anomalies in real time.
-
-🔗 **Website:** https://eda-kdd.netlify.app/  
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-eda.svg" width="720" alt="EDA Project"/>
+  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-eda.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+    <div>
+      <h3>🛣️ Enhanced Driver Assist (EDA)</h3>
+      <p>⚙️ Edge AI • Jetson Nano • Computer Vision • OBD-II Fusion</p>
+      <p>Responsive dual-camera safety system detecting fatigue, distraction & anomalies in real time.</p>
+      <p>🔗 <a href="https://eda-kdd.netlify.app/">Website</a></p>
+    </div>
+  </object>
 </p>
 
----
-
-### 🎙️ **LiveKit Voice Agent**  
-
-⚡ *Production Voice AI • Twilio SIP • Bedrock + Deepgram*  
-Fully autonomous multi-tenant voice assistant with streaming STT/TTS + LLM tool agents.
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-voice.svg" width="720" alt="LiveKit Voice Agent"/>
+  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-voice.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+    <div>
+      <h3>🎙️ LiveKit Voice Agent</h3>
+      <p>⚡ Production Voice AI • Twilio SIP • Bedrock + Deepgram</p>
+      <p>Fully autonomous multi-tenant voice assistant with streaming STT/TTS + LLM tool agents.</p>
+    </div>
+  </object>
 </p>
 
----
-
-### 📊 **Visualization Chatbot**  
-
-Natural-language → executable analytics + real-time Plotly charts.
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-viz.svg" width="720" alt="Visualization Chatbot"/>
+  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-viz.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+    <div>
+      <h3>📊 Visualization Chatbot</h3>
+      <p>Natural-language → executable analytics + real-time Plotly charts.</p>
+    </div>
+  </object>
 </p>
 
----
-
-### 🧠 **Mulazmat — AI Resume Parser (NCAI-funded)**  
-
-Optimized BERT parser for skill extraction + ranking, deployed on edge hardware.
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-mulazmat.svg" width="720" alt="Mulazmat"/>
+  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-mulazmat.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+    <div>
+      <h3>🧠 Mulazmat — AI Resume Parser (NCAI-funded)</h3>
+      <p>Optimized BERT parser for skill extraction + ranking, deployed on edge hardware.</p>
+    </div>
+  </object>
 </p>
-
----
 
 <!-- ========================= -->
 <!--     STATS SECTION         -->
@@ -119,15 +94,20 @@ Optimized BERT parser for skill extraction + ranking, deployed on edge hardware.
 
 ## 📊 GitHub Analytics
 
-<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-<img height="165" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=AliArfa852&theme=tokyonight&border_radius=8"/>
+<img height="165" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=AliArfa852&theme=tokyonight&border_radius=8" width="100%"/>
 
-<img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AliArfa852&layout=compact&theme=tokyonight&border_radius=8"/>
+</td>
+<td width="50%">
 
-</div>
+<img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AliArfa852&layout=compact&theme=tokyonight&border_radius=8" width="100%"/>
 
----
+</td>
+</tr>
+</table>
 
 ## 🌐 Connect
 
@@ -136,13 +116,11 @@ Optimized BERT parser for skill extraction + ranking, deployed on edge hardware.
 [![Email](https://img.shields.io/badge/Email-aliarfa852%40gmail.com-D14836?style=for-the-badge)](mailto:aliarfa852@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-AliArfa-blue?style=for-the-badge)](https://linkedin.com/in/aliarfa852)
 
-<br/><br/>
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=AliArfa852&color=brightgreen&style=flat-square"/>
 
 </div>
-
----
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/footer-wave.svg" width="100%" alt="footer wave"/>

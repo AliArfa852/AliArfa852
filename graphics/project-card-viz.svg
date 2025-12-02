@@ -5,6 +5,21 @@
       <stop offset="0" stop-color="#14B8A6"/>
       <stop offset="1" stop-color="#4F46E5"/>
     </linearGradient>
+
+    <linearGradient id="vizBlobGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.09"/>
+    </linearGradient>
+
+    <linearGradient id="vizBlobGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.07"/>
+    </linearGradient>
+
+    <filter id="vizBlobBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" />
+    </filter>
+
     <style>
       .card { fill: rgba(255,255,255,0.04); stroke: rgba(255,255,255,0.06); rx:16; }
       .title { font:700 20px 'Inter'; fill:#fff; }
@@ -13,6 +28,41 @@
   </defs>
 
   <rect x="8" y="8" width="884" height="224" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)"/>
+
+  <!-- animated morphing blobs -->
+  <g opacity="0.10">
+    <path fill="url(#vizBlobGrad1)" filter="url(#vizBlobBlur)">
+      <animate attributeName="d" dur="8.5s" repeatCount="indefinite"
+        values="M550,50 Q620,30 680,70 T780,90 Q760,110 680,130 T550,110 Q530,90 550,70 Z;
+                M550,50 Q650,20 710,90 T830,120 Q780,140 680,160 T550,130 Q510,90 550,50 Z;
+                M550,50 Q620,30 680,70 T780,90 Q760,110 680,130 T550,110 Q530,90 550,70 Z"/>
+    </path>
+    <path fill="url(#vizBlobGrad2)" filter="url(#vizBlobBlur)">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite"
+        values="M250,170 Q310,150 370,190 T490,210 Q470,230 370,240 T250,220 Q230,200 250,180 Z;
+                M250,170 Q330,140 400,200 T520,230 Q490,250 370,260 T250,240 Q210,210 250,170 Z;
+                M250,170 Q310,150 370,190 T490,210 Q470,230 370,240 T250,220 Q230,200 250,180 Z"/>
+    </path>
+  </g>
+
+  <!-- floating particles -->
+  <g opacity="0.21">
+    <circle cx="180" cy="50" r="3" fill="#14B8A6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 35,30; -12,50; 0,0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="190" r="2.5" fill="#2563EB">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -28,40; 18,-28; 0,0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="40" r="2" fill="#4F46E5">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 22,-28; -32,18; 0,0" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="200" r="3.5" fill="#14B8A6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -22,-32; 28,12; 0,0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="140" r="2" fill="#2563EB">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 28,28; -18,-38; 0,0" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   <circle cx="64" cy="64" r="44" fill="url(#pc3g)" opacity="0.98">
     <animate attributeName="r" dur="8s" values="42;48;42" repeatCount="indefinite"/>
   </circle>

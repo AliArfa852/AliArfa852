@@ -7,8 +7,22 @@
       <stop offset="1" stop-color="#4F46E5"/>
     </linearGradient>
 
+    <linearGradient id="blobGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0.10"/>
+    </linearGradient>
+
+    <linearGradient id="blobGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.08"/>
+    </linearGradient>
+
     <filter id="glassBlur" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="10" />
+    </filter>
+
+    <filter id="blobBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15" />
     </filter>
 
     <style>
@@ -20,6 +34,41 @@
   </defs>
 
   <rect x="8" y="8" width="884" height="244" class="card" rx="18"/>
+
+  <!-- animated morphing blobs -->
+  <g opacity="0.10">
+    <path id="blob1" fill="url(#blobGrad1)" filter="url(#blobBlur)">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite"
+        values="M600,80 Q680,60 720,100 T800,120 Q780,140 720,160 T600,140 Q580,120 600,100 Z;
+                M600,80 Q700,50 750,110 T850,130 Q800,150 720,170 T600,150 Q570,120 600,90 Z;
+                M600,80 Q680,60 720,100 T800,120 Q780,140 720,160 T600,140 Q580,120 600,100 Z"/>
+    </path>
+    <path id="blob2" fill="url(#blobGrad2)" filter="url(#blobBlur)">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M200,180 Q250,160 300,200 T400,220 Q380,240 300,250 T200,230 Q180,210 200,190 Z;
+                M200,180 Q270,150 320,210 T420,240 Q390,260 300,270 T200,250 Q160,220 200,180 Z;
+                M200,180 Q250,160 300,200 T400,220 Q380,240 300,250 T200,230 Q180,210 200,190 Z"/>
+    </path>
+  </g>
+
+  <!-- floating particles -->
+  <g opacity="0.20">
+    <circle cx="150" cy="50" r="3" fill="#14B8A6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 30,20; -10,40; 0,0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="200" r="2.5" fill="#2563EB">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -25,30; 15,-20; 0,0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="180" r="2" fill="#4F46E5">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 20,-25; -30,15; 0,0" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="220" r="3.5" fill="#14B8A6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -20,-30; 25,10; 0,0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="60" r="2" fill="#2563EB">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 35,25; -15,-35; 0,0" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   <!-- gradient accent bar -->
   <rect x="24" y="22" width="24" height="220" rx="8" fill="url(#pcg)" opacity="0.95">
     <animate attributeName="y" dur="7s" values="22;12;22" repeatCount="indefinite"/>

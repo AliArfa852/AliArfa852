@@ -5,6 +5,21 @@
       <stop offset="0" stop-color="#14B8A6"/>
       <stop offset="1" stop-color="#2563EB"/>
     </linearGradient>
+
+    <linearGradient id="mulBlobGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0.10"/>
+    </linearGradient>
+
+    <linearGradient id="mulBlobGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <filter id="mulBlobBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="17" />
+    </filter>
+
     <style>
       .card { fill: rgba(255,255,255,0.045); stroke: rgba(255,255,255,0.06); rx:16; }
       .title { font:700 20px 'Inter'; fill:#fff; }
@@ -13,6 +28,41 @@
   </defs>
 
   <rect x="8" y="8" width="884" height="224" rx="16" class="card"/>
+
+  <!-- animated morphing blobs -->
+  <g opacity="0.11">
+    <path fill="url(#mulBlobGrad1)" filter="url(#mulBlobBlur)">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M520,45 Q600,25 660,65 T760,85 Q740,105 660,125 T520,105 Q500,85 520,65 Z;
+                M520,45 Q620,15 690,85 T820,115 Q770,135 660,155 T520,125 Q480,85 520,45 Z;
+                M520,45 Q600,25 660,65 T760,85 Q740,105 660,125 T520,105 Q500,85 520,65 Z"/>
+    </path>
+    <path fill="url(#mulBlobGrad2)" filter="url(#mulBlobBlur)">
+      <animate attributeName="d" dur="10.5s" repeatCount="indefinite"
+        values="M220,165 Q280,145 340,185 T460,205 Q440,225 340,235 T220,215 Q200,195 220,175 Z;
+                M220,165 Q300,135 370,195 T490,225 Q460,245 340,255 T220,235 Q180,205 220,165 Z;
+                M220,165 Q280,145 340,185 T460,205 Q440,225 340,235 T220,215 Q200,195 220,175 Z"/>
+    </path>
+  </g>
+
+  <!-- floating particles -->
+  <g opacity="0.20">
+    <circle cx="160" cy="45" r="3" fill="#14B8A6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 38,28; -14,48; 0,0" dur="7.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="580" cy="185" r="2.5" fill="#2563EB">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -26,38; 16,-26; 0,0" dur="8.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="730" cy="35" r="2" fill="#4F46E5">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 24,-26; -30,16; 0,0" dur="5.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="380" cy="195" r="3.5" fill="#14B8A6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -24,-30; 26,10; 0,0" dur="9.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="660" cy="135" r="2" fill="#2563EB">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 26,26; -16,-36; 0,0" dur="6.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   <rect x="28" y="32" width="140" height="80" rx="10" fill="url(#pc4g)"/>
   <text x="190" y="62" class="title">Mulazmat — AI Resume Parser</text>
   <text x="190" y="92" class="sub">BERT-based parser • Skill extraction • Job-candidate ranking • NCAI funded</text>
