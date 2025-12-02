@@ -110,10 +110,10 @@
   </g>
 
   <!-- small icon -->
-  <g transform="translate(750,40)" opacity="0.95">
+  <!-- <g transform="translate(750,40)" opacity="0.95">
     <rect width="140" height="120" rx="12" fill="rgba(255,255,255,0.03)"/>
     <text x="16" y="40" class="pill">Edge</text>
     <text x="16" y="70" class="pill">Real-time</text>
-  </g>
+  </g> -->
 </svg>
 
