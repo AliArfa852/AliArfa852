@@ -157,6 +157,9 @@ Turning natural-language into **live charts**, tables, visual analytics
 <div align="center">
 
 <img width="390" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=AliArfa852&theme=react&border_radius=10" />
+<br/>
+
+<br/>
 
 <img width="340" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AliArfa852&langs_count=8&layout=compact&theme=react&border_radius=10" />
 
