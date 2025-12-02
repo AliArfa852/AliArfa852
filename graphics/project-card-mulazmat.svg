@@ -6,19 +6,10 @@
       <stop offset="1" stop-color="#2563EB"/>
     </linearGradient>
 
-    <linearGradient id="mulBlobGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#2563EB" stop-opacity="0.10"/>
+    <linearGradient id="blobGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0.12"/>
     </linearGradient>
-
-    <linearGradient id="mulBlobGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.08"/>
-    </linearGradient>
-
-    <filter id="mulBlobBlur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="17" />
-    </filter>
 
     <style>
       .card { fill: rgba(255,255,255,0.045); stroke: rgba(255,255,255,0.06); rx:16; }
@@ -29,45 +20,113 @@
 
   <rect x="8" y="8" width="884" height="224" rx="16" class="card"/>
 
-  <!-- animated morphing blobs -->
-  <g opacity="0.11">
-    <path fill="url(#mulBlobGrad1)" filter="url(#mulBlobBlur)">
-      <animate attributeName="d" dur="9s" repeatCount="indefinite"
-        values="M520,45 Q600,25 660,65 T760,85 Q740,105 660,125 T520,105 Q500,85 520,65 Z;
-                M520,45 Q620,15 690,85 T820,115 Q770,135 660,155 T520,125 Q480,85 520,45 Z;
-                M520,45 Q600,25 660,65 T760,85 Q740,105 660,125 T520,105 Q500,85 520,65 Z"/>
-    </path>
-    <path fill="url(#mulBlobGrad2)" filter="url(#mulBlobBlur)">
-      <animate attributeName="d" dur="10.5s" repeatCount="indefinite"
-        values="M220,165 Q280,145 340,185 T460,205 Q440,225 340,235 T220,215 Q200,195 220,175 Z;
-                M220,165 Q300,135 370,195 T490,225 Q460,245 340,255 T220,235 Q180,205 220,165 Z;
-                M220,165 Q280,145 340,185 T460,205 Q440,225 340,235 T220,215 Q200,195 220,175 Z"/>
+  <!-- bounding box for random blob (Mulazmat) - 40% left section -->
+  <clipPath id="randomBounds">
+    <rect x="8" y="30" width="352" height="180"/>
+  </clipPath>
+
+  <!-- Random liquid blob - unpredictable varied timing and paths -->
+  <g opacity="0.12" clip-path="url(#randomBounds)">
+    <path fill="url(#blobGrad4)" d="M350 100 C390 80 430 90 470 100 C510 110 530 130 510 150 C490 170 450 180 410 170 C370 160 330 150 340 130 C350 110 350 100 350 100 Z">
+      <animate attributeName="d" dur="9.3s" repeatCount="indefinite"
+        values="M350 100 C390 80 430 90 470 100 C510 110 530 130 510 150 C490 170 450 180 410 170 C370 160 330 150 340 130 C350 110 350 100 350 100 Z;
+                M480 70 C520 50 560 60 600 70 C640 80 660 100 640 120 C620 140 580 150 540 140 C500 130 460 120 470 100 C480 80 480 70 480 70 Z;
+                M320 130 C360 110 400 120 440 130 C480 140 500 160 480 180 C460 200 420 210 380 200 C340 190 300 180 310 160 C320 140 320 130 320 130 Z;
+                M410 90 C450 70 490 80 530 90 C570 100 590 120 570 140 C550 160 510 170 470 160 C430 150 390 140 400 120 C410 100 410 90 410 90 Z;
+                M370 150 C410 130 450 140 490 150 C530 160 550 180 530 200 C510 220 470 230 430 220 C390 210 350 200 360 180 C370 160 370 150 370 150 Z;
+                M350 100 C390 80 430 90 470 100 C510 110 530 130 510 150 C490 170 450 180 410 170 C370 160 330 150 340 130 C350 110 350 100 350 100 Z"/>
     </path>
   </g>
 
   <!-- floating particles -->
   <g opacity="0.20">
-    <circle cx="160" cy="45" r="3" fill="#14B8A6">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 38,28; -14,48; 0,0" dur="7.5s" repeatCount="indefinite"/>
+    <circle cx="600" cy="55" r="3" fill="#14B8A6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 38,-24; 0,0" dur="6.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="580" cy="185" r="2.5" fill="#2563EB">
-      <animateTransform attributeName="transform" type="translate" values="0,0; -26,38; 16,-26; 0,0" dur="8.5s" repeatCount="indefinite"/>
+    <circle cx="750" cy="175" r="2.5" fill="#2563EB">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -32,19; 0,0" dur="7.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="730" cy="35" r="2" fill="#4F46E5">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 24,-26; -30,16; 0,0" dur="5.8s" repeatCount="indefinite"/>
+    <circle cx="400" cy="125" r="2" fill="#14B8A6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 24,29; 0,0" dur="5.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="380" cy="195" r="3.5" fill="#14B8A6">
-      <animateTransform attributeName="transform" type="translate" values="0,0; -24,-30; 26,10; 0,0" dur="9.5s" repeatCount="indefinite"/>
+    <circle cx="700" cy="105" r="3.5" fill="#2563EB">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -19,-33; 0,0" dur="8.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="660" cy="135" r="2" fill="#2563EB">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 26,26; -16,-36; 0,0" dur="6.8s" repeatCount="indefinite"/>
+    <circle cx="300" cy="75" r="2" fill="#14B8A6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 42,13; 0,0" dur="7s" repeatCount="indefinite"/>
     </circle>
   </g>
-  <rect x="28" y="32" width="140" height="80" rx="10" fill="url(#pc4g)"/>
-  <text x="190" y="62" class="title">Mulazmat — AI Resume Parser</text>
-  <text x="190" y="92" class="sub">BERT-based parser • Skill extraction • Job-candidate ranking • NCAI funded</text>
+  <!-- Solid shape that gets randomly tossed and breaks (40% left section) -->
+  <g opacity="0.98" id="solidShape">
+    <!-- Main solid shape -->
+    <rect x="50" y="32" width="280" height="160" rx="16" fill="url(#pc4g)">
+      <!-- Random tossing movement (simulating mouse interaction) -->
+      <animateTransform attributeName="transform" type="translate" 
+        values="0,0; 50,-40; -60,30; 40,50; -30,-60; 70,20; -50,40; 0,0" 
+        dur="11s" repeatCount="indefinite"/>
+      <!-- Random rotation -->
+      <animateTransform attributeName="transform" type="rotate" 
+        values="0 190 112; 15 190 112; -20 190 112; 25 190 112; -15 190 112; 10 190 112; 0 190 112" 
+        dur="11s" repeatCount="indefinite" additive="sum"/>
+    </rect>
+    
+    <!-- Break apart animation (simulating double-click) - triggers every 15 seconds -->
+    <g id="brokenPieces" opacity="0">
+      <!-- Piece 1 -->
+      <rect x="50" y="32" width="140" height="80" rx="8" fill="url(#pc4g)">
+        <animate attributeName="opacity" values="0;1;0" dur="15s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="translate" 
+          values="0,0; -80,-60; 0,0" dur="15s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="rotate" 
+          values="0 120 72; -45 120 72; 0 120 72" dur="15s" repeatCount="indefinite" begin="0s" additive="sum"/>
+      </rect>
+      <!-- Piece 2 -->
+      <rect x="190" y="32" width="140" height="80" rx="8" fill="url(#pc4g)">
+        <animate attributeName="opacity" values="0;1;0" dur="15s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="translate" 
+          values="0,0; 100,-40; 0,0" dur="15s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="rotate" 
+          values="0 260 72; 60 260 72; 0 260 72" dur="15s" repeatCount="indefinite" begin="0s" additive="sum"/>
+      </rect>
+      <!-- Piece 3 -->
+      <rect x="50" y="112" width="140" height="80" rx="8" fill="url(#pc4g)">
+        <animate attributeName="opacity" values="0;1;0" dur="15s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="translate" 
+          values="0,0; -60,80; 0,0" dur="15s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="rotate" 
+          values="0 120 152; 30 120 152; 0 120 152" dur="15s" repeatCount="indefinite" begin="0s" additive="sum"/>
+      </rect>
+      <!-- Piece 4 -->
+      <rect x="190" y="112" width="140" height="80" rx="8" fill="url(#pc4g)">
+        <animate attributeName="opacity" values="0;1;0" dur="15s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="translate" 
+          values="0,0; 80,70; 0,0" dur="15s" repeatCount="indefinite" begin="0s"/>
+        <animateTransform attributeName="transform" type="rotate" 
+          values="0 260 152; -30 260 152; 0 260 152" dur="15s" repeatCount="indefinite" begin="0s" additive="sum"/>
+      </rect>
+    </g>
+    
+    <!-- Main shape hides during break -->
+    <rect x="50" y="32" width="280" height="160" rx="16" fill="url(#pc4g)">
+      <animate attributeName="opacity" values="1;0;0;1" dur="15s" repeatCount="indefinite" 
+        keyTimes="0;0.1;0.3;1" calcMode="linear"/>
+      <animateTransform attributeName="transform" type="translate" 
+        values="0,0; 50,-40; -60,30; 40,50; -30,-60; 70,20; -50,40; 0,0" 
+        dur="11s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" 
+        values="0 190 112; 15 190 112; -20 190 112; 25 190 112; -15 190 112; 10 190 112; 0 190 112" 
+        dur="11s" repeatCount="indefinite" additive="sum"/>
+    </rect>
+  </g>
+  
+  <!-- Glow effect -->
+  <rect x="46" y="30" width="288" height="164" rx="18" fill="url(#pc4g)" opacity="0.2">
+    <animate attributeName="opacity" values="0.15;0.3;0.15" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="380" y="62" class="title">Mulazmat — AI Resume Parser</text>
+  <text x="380" y="92" class="sub">BERT-based parser • Skill extraction • Job-candidate ranking • NCAI funded</text>
 
-  <g transform="translate(190,112)">
+  <g transform="translate(380,112)">
     <text x="0" y="18" class="sub">• Optimized for production + edge inference</text>
     <text x="0" y="40" class="sub">• Rule-based and ML hybrid pipeline</text>
   </g>

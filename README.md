@@ -3,18 +3,8 @@
 <!-- ========================= -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/portfolio-banner.svg" width="100%" alt="Ali Arfa - AI Engineer"/>
+  <img src="graphics/portfolio-banner.svg" width="100%" alt="Ali Arfa - AI Engineer"/>
 </p>
-
-<div align="center">
-
-# **Ali Arfa**
-
-### AI Engineer • LLM & Voice Agent Specialist • Edge AI Developer • Data Scientist
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=25&duration=2400&pause=900&color=4F46E5&center=true&vCenter=true&width=700&lines=Building+Autonomous+LLM+Agents+%F0%9F%A4%96;Engineering+AI+Voice+Assistants+%F0%9F%8E%99%EF%B8%8F;Deploying+AI+on+Jetson+%26+Raspberry+Pi+%F0%9F%9B%A0%EF%B8%8F;Designing+Multimodal+%2B+Edge+ML+Systems+%F0%9F%94%8C" />
-
-</div>
 
 <!-- ========================= -->
 <!--     ABOUT SECTION         -->
@@ -50,43 +40,58 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 ## 🚀 Featured Projects
 
 <p align="center">
-  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-eda.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
-    <div>
-      <h3>🛣️ Enhanced Driver Assist (EDA)</h3>
-      <p>⚙️ Edge AI • Jetson Nano • Computer Vision • OBD-II Fusion</p>
-      <p>Responsive dual-camera safety system detecting fatigue, distraction & anomalies in real time.</p>
-      <p>🔗 <a href="https://eda-kdd.netlify.app/">Website</a></p>
-    </div>
-  </object>
+  <img src="graphics/project-card-eda.svg" width="100%" style="max-width: 900px;" alt="Enhanced Driver Assist (EDA) Project Card"/>
 </p>
 
-<p align="center">
-  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-voice.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
-    <div>
-      <h3>🎙️ LiveKit Voice Agent</h3>
-      <p>⚡ Production Voice AI • Twilio SIP • Bedrock + Deepgram</p>
-      <p>Fully autonomous multi-tenant voice assistant with streaming STT/TTS + LLM tool agents.</p>
-    </div>
-  </object>
-</p>
+<!-- Fallback text for EDA (uncomment if SVG doesn't load):
+### 🛣️ **Enhanced Driver Assist (EDA)**  
+**Edge AI • Jetson Nano • Computer Vision • OBD-II Fusion**
+- Real-time YOLOv8 + TFLite inference
+- Jetson Nano + Coral TPU deployment
+- OBD-II analytics & anomaly alerts
+- Dual-camera drowsiness & distraction detection
+🔗 **Website:** https://eda-kdd.netlify.app/
+-->
 
 <p align="center">
-  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-viz.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
-    <div>
-      <h3>📊 Visualization Chatbot</h3>
-      <p>Natural-language → executable analytics + real-time Plotly charts.</p>
-    </div>
-  </object>
+  <img src="graphics/project-card-voice.svg" width="100%" style="max-width: 900px;" alt="LiveKit Voice Agent Project Card"/>
 </p>
 
+<!-- Fallback text for LiveKit (uncomment if SVG doesn't load):
+### 🎙️ **LiveKit Voice Agent (Production-Ready)**  
+**LLM Voice AI • Multi-Tenant • Realtime Streaming**
+- Twilio SIP + LiveKit bidirectional audio
+- Deepgram STT + Bedrock NovaSonic TTS
+- Automated call summaries + structured outputs
+- Custom tools (DB access, routing, context manager)
+- Multi-tenant isolation with full logging pipeline
+-->
+
 <p align="center">
-  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-mulazmat.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
-    <div>
-      <h3>🧠 Mulazmat — AI Resume Parser (NCAI-funded)</h3>
-      <p>Optimized BERT parser for skill extraction + ranking, deployed on edge hardware.</p>
-    </div>
-  </object>
+  <img src="graphics/project-card-viz.svg" width="100%" style="max-width: 900px;" alt="Visualization Chatbot Project Card"/>
 </p>
+
+<!-- Fallback text for Visualization Chatbot (uncomment if SVG doesn't load):
+### 📊 **Visualization Chatbot**  
+**LangChain • Pandas • Plotly • Natural Language Processing**
+- Natural-language data exploration
+- Reproducible data transforms via conversational prompts
+- Live dashboards generation
+- Real-time Plotly visualizations from queries
+-->
+
+<p align="center">
+  <img src="graphics/project-card-mulazmat.svg" width="100%" style="max-width: 900px;" alt="Mulazmat AI Resume Parser Project Card"/>
+</p>
+
+<!-- Fallback text for Mulazmat (uncomment if SVG doesn't load):
+### 🧠 **Mulazmat — AI Resume Parser (NCAI-funded)**  
+**BERT • NLP • Edge AI • Production Optimization**
+- BERT-based parser for skill extraction
+- Job-candidate ranking system
+- Optimized for production + edge inference
+- Rule-based and ML hybrid pipeline
+-->
 
 <!-- ========================= -->
 <!--     STATS SECTION         -->
@@ -101,6 +106,8 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 <img height="165" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=AliArfa852&theme=tokyonight&border_radius=8" width="100%"/>
 
 </td>
+<br
+
 <td width="50%">
 
 <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AliArfa852&layout=compact&theme=tokyonight&border_radius=8" width="100%"/>
@@ -123,5 +130,5 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/footer-wave.svg" width="100%" alt="footer wave"/>
+  <img src="graphics/footer-wave.svg" width="100%" alt="footer wave"/>
 </p>
