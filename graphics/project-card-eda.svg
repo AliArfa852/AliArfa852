@@ -1,0 +1,55 @@
+<!-- project-card-eda.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Enhanced Driver Assist project card">
+  <defs>
+    <linearGradient id="pcg" x1="0" x2="1">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="0.6" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+
+    <filter id="glassBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" />
+    </filter>
+
+    <style>
+      .card { rx:18; fill: rgba(255,255,255,0.06); stroke: rgba(255,255,255,0.07); }
+      .title { font: 700 22px 'Inter', Arial; fill: white; }
+      .subtitle { font: 500 14px 'Inter', Arial; fill: #E6F0FF; }
+      .pill { font:600 12px 'Inter'; fill:#fff }
+    </style>
+  </defs>
+
+  <rect x="8" y="8" width="884" height="244" class="card" rx="18"/>
+  <!-- gradient accent bar -->
+  <rect x="24" y="22" width="24" height="220" rx="8" fill="url(#pcg)" opacity="0.95">
+    <animate attributeName="y" dur="7s" values="22;12;22" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- title & meta -->
+  <text x="64" y="60" class="title">Enhanced Driver Assist (EDA)</text>
+  <text x="64" y="90" class="subtitle">Edge AI • Dual-camera drowsiness &amp; distraction detection • OBD-II fusion</text>
+
+  <!-- bullets -->
+  <g transform="translate(64,110)">
+    <circle cx="6" cy="6" r="6" fill="#14B8A6"/>
+    <text x="20" y="10" class="subtitle">Real-time YOLOv8 + TFLite inference</text>
+
+    <g transform="translate(0,26)">
+      <circle cx="6" cy="6" r="6" fill="#2563EB"/>
+      <text x="20" y="10" class="subtitle">Jetson Nano + Coral TPU deployment</text>
+    </g>
+
+    <g transform="translate(0,52)">
+      <circle cx="6" cy="6" r="6" fill="#4F46E5"/>
+      <text x="20" y="10" class="subtitle">OBD-II analytics &amp; anomaly alerts</text>
+    </g>
+  </g>
+
+  <!-- small icon -->
+  <g transform="translate(700,40)" opacity="0.95">
+    <rect width="140" height="120" rx="12" fill="rgba(255,255,255,0.03)"/>
+    <text x="16" y="40" class="pill">Edge</text>
+    <text x="16" y="70" class="pill">Real-time</text>
+  </g>
+</svg>
+

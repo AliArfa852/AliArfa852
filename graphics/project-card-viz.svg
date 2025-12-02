@@ -1,0 +1,29 @@
+<!-- project-card-viz.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Visualization Chatbot project card">
+  <defs>
+    <linearGradient id="pc3g" x1="0" x2="1">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+    <style>
+      .card { fill: rgba(255,255,255,0.04); stroke: rgba(255,255,255,0.06); rx:16; }
+      .title { font:700 20px 'Inter'; fill:#fff; }
+      .sub { font:500 13px 'Inter'; fill:#DDEBFF; }
+    </style>
+  </defs>
+
+  <rect x="8" y="8" width="884" height="224" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="64" cy="64" r="44" fill="url(#pc3g)" opacity="0.98">
+    <animate attributeName="r" dur="8s" values="42;48;42" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="140" y="62" class="title">Visualization Chatbot</text>
+  <text x="140" y="92" class="sub">LangChain + Pandas → Live Plotly visualizations from queries</text>
+
+  <g transform="translate(140,112)">
+    <text x="0" y="18" class="sub">• Natural-language data exploration</text>
+    <text x="0" y="40" class="sub">• Reproducible data transforms via conversational prompts</text>
+    <text x="0" y="62" class="sub">• Live dashboards generation</text>
+  </g>
+</svg>
+

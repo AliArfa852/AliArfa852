@@ -1,0 +1,25 @@
+<!-- project-card-mulazmat.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Mulazmat project card">
+  <defs>
+    <linearGradient id="pc4g" x1="0" x2="1">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <style>
+      .card { fill: rgba(255,255,255,0.045); stroke: rgba(255,255,255,0.06); rx:16; }
+      .title { font:700 20px 'Inter'; fill:#fff; }
+      .sub { font:500 13px 'Inter'; fill:#DDEBFF; }
+    </style>
+  </defs>
+
+  <rect x="8" y="8" width="884" height="224" rx="16" class="card"/>
+  <rect x="28" y="32" width="140" height="80" rx="10" fill="url(#pc4g)"/>
+  <text x="190" y="62" class="title">Mulazmat — AI Resume Parser</text>
+  <text x="190" y="92" class="sub">BERT-based parser • Skill extraction • Job-candidate ranking • NCAI funded</text>
+
+  <g transform="translate(190,112)">
+    <text x="0" y="18" class="sub">• Optimized for production + edge inference</text>
+    <text x="0" y="40" class="sub">• Rule-based and ML hybrid pipeline</text>
+  </g>
+</svg>
+

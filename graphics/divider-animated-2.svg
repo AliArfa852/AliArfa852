@@ -1,0 +1,17 @@
+<!-- divider-animated-2.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" preserveAspectRatio="none" width="1200" height="80">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <style>
+      .sheen { fill: url(#g2); opacity:0.10; }
+    </style>
+  </defs>
+
+  <path class="sheen" d="M0 40 Q300 10 600 40 T1200 40 L1200 80 L0 80 Z">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -20 0; 0 0" dur="10s" repeatCount="indefinite"/>
+  </path>
+</svg>

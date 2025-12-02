@@ -1,0 +1,22 @@
+<!-- divider-animated.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" width="1200" height="120" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="dgrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+
+    <style>
+      .wave { fill: url(#dgrad); opacity:0.18; }
+    </style>
+  </defs>
+
+  <path class="wave" d="M0 60 C150 10 350 110 600 60 C850 10 1050 110 1200 60 L1200 120 L0 120 Z">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite"
+      values="
+        M0 60 C150 10 350 110 600 60 C850 10 1050 110 1200 60 L1200 120 L0 120 Z;
+        M0 60 C160 20 360 90 600 60 C840 20 1040 90 1200 60 L1200 120 L0 120 Z;
+        M0 60 C150 10 350 110 600 60 C850 10 1050 110 1200 60 L1200 120 L0 120 Z" />
+  </path>
+</svg>

@@ -1,0 +1,87 @@
+<!-- portfolio-banner.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" width="1600" height="420" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ali Arfa - AI Engineer banner">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#14B8A6">
+        <animate attributeName="stop-color" values="#14B8A6;#1dd3b2;#14B8A6" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#2563EB">
+        <animate attributeName="stop-color" values="#2563EB;#3b7ff0;#2563EB" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#4F46E5">
+        <animate attributeName="stop-color" values="#4F46E5;#7b5cf8;#4F46E5" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feBlend in="SourceGraphic" in2="b"/>
+    </filter>
+
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.14)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.04)"/>
+    </linearGradient>
+
+    <style>
+      .title { font: 700 42px 'Inter', Helvetica, Arial; fill: #fff; }
+      .subtitle { font: 500 20px 'Inter', Helvetica, Arial; fill: #EAF2FF; }
+      .glass-card { fill: url(#glass); stroke: rgba(255,255,255,0.08); stroke-width:1; }
+      .accent { fill: url(#g1); }
+    </style>
+  </defs>
+
+  <!-- animated gradient background -->
+  <rect width="1600" height="420" rx="0" ry="0" fill="url(#g1)"/>
+
+  <!-- subtle radial glow -->
+  <circle cx="1200" cy="80" r="220" fill="#ffffff" opacity="0.05">
+    <animate attributeName="opacity" values="0.04;0.08;0.04" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- holographic shapes -->
+  <g opacity="0.12" filter="url(#blur)">
+    <ellipse cx="280" cy="110" rx="420" ry="120" fill="#ffffff"/>
+    <rect x="900" y="-40" width="520" height="220" rx="90" transform="rotate(-12 900 0)" fill="#ffffff"/>
+  </g>
+
+  <!-- glass panel -->
+  <g transform="translate(80,120)">
+    <rect class="glass-card" x="0" y="0" width="740" height="170" rx="14" />
+    <!-- subtle border line -->
+    <rect x="0.5" y="0.5" width="739" height="169" rx="14" fill="none" stroke="rgba(255,255,255,0.06)"/>
+    <!-- name -->
+    <text x="32" y="56" class="title">Ali Arfa</text>
+    <text x="32" y="94" class="subtitle">AI Engineer • LLM & Voice Agent Specialist • Edge AI</text>
+
+    <!-- badges -->
+    <g transform="translate(32,110)" opacity="0.95">
+      <rect x="0" y="0" rx="8" ry="8" width="170" height="32" fill="#0EA5A4" />
+      <text x="14" y="21" font="600 13px 'Inter', Helvetica, Arial" fill="#fff">AI Voice & Agents</text>
+
+      <rect x="186" y="0" rx="8" ry="8" width="150" height="32" fill="#2563EB" />
+      <text x="200" y="21" font="600 13px 'Inter', Helvetica, Arial" fill="#fff">LLM Agents</text>
+
+      <rect x="346" y="0" rx="8" ry="8" width="130" height="32" fill="#7C4CF8" />
+      <text x="358" y="21" font="600 13px 'Inter', Helvetica, Arial" fill="#fff">Edge AI</text>
+    </g>
+  </g>
+
+  <!-- accent diagonal ribbon -->
+  <g transform="translate(580,18)" opacity="0.14">
+    <rect x="0" y="0" width="540" height="320" rx="22" transform="skewX(-14)" fill="#ffffff"/>
+  </g>
+
+  <!-- small animated particle dots -->
+  <g fill="#fff" opacity="0.08">
+    <circle cx="400" cy="320" r="3">
+      <animate attributeName="cy" values="320;300;320" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="520" cy="280" r="2">
+      <animate attributeName="cx" values="520;540;520" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="340" r="2.5">
+      <animate attributeName="cy" values="340;360;340" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

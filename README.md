@@ -1,187 +1,149 @@
+<!-- ========================= -->
+<!--   PORTFOLIO BANNER        -->
+<!-- ========================= -->
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/portfolio-banner.svg" width="100%" alt="Ali Arfa - AI Engineer"/>
+</p>
+
 <div align="center">
 
-# 👋 Hi, I'm **Ali Arfa**
+# **Ali Arfa**
 
 ### AI Engineer • LLM & Voice Agent Specialist • Edge AI Developer • Data Scientist
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&size=22&pause=1200&color=4F46E5&center=true&vCenter=true&width=700&lines=Building+Real-Time+AI+Voice+Agents;Designing+LLM+Tools+%26+Autonomous+Agents;Deploying+AI+on+Jetson+Nano+%26+Raspberry+Pi;Creating+Edge+AI+Systems+for+Real-World+Impact" />
-
-<br/>
-
-![AI Voice](https://img.shields.io/badge/AI_Voice_Agents-6366F1?style=for-the-badge)
-![LLM Agents](https://img.shields.io/badge/LLM_Agents-10B981?style=for-the-badge)
-![Edge AI](https://img.shields.io/badge/Edge_AI-F59E0B?style=for-the-badge)
-![Data Science](https://img.shields.io/badge/Data_Science-3B82F6?style=for-the-badge)
-![Full Stack](https://img.shields.io/badge/Full_Stack-8B5CF6?style=for-the-badge)
-
----
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=25&duration=2400&pause=900&color=4F46E5&center=true&vCenter=true&width=700&lines=Building+Autonomous+LLM+Agents+%F0%9F%A4%96;Engineering+AI+Voice+Assistants+%F0%9F%8E%99%EF%B8%8F;Deploying+AI+on+Jetson+%26+Raspberry+Pi+%F0%9F%9B%A0%EF%B8%8F;Designing+Multimodal+%2B+Edge+ML+Systems+%F0%9F%94%8C" />
 
 </div>
 
-## 🚀 About Me
+---
 
-I work at the intersection of **AI**, **LLM Agents**, **edge computing**, and **embedded systems**, building real-time intelligent applications that run on both cloud and constrained devices (Jetson Nano, Raspberry Pi 5).
+<!-- ========================= -->
+<!--     ABOUT SECTION         -->
+<!-- ========================= -->
 
-Specialized in:
+## ✨ About Me
 
-- Real-time **AI voice systems** using LiveKit + AWS  
-- LLM agents with **tool calling**, reasoning, and orchestration  
-- Multimodal systems (vision + OBD-II + audio + text)  
-- Optimized inference via **quantization**, **distillation**, **TensorRT**  
-- Edge-first CV and sensor fusion for safety-critical applications  
+I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal pipelines**, and **edge computing**.  
+My work ranges from **production-grade AI voice systems** to **Jetson-powered driver safety intelligence**, with a focus on **fast, efficient, deployable models**.
 
-🏅 **3× Gold Medalist**  
-🏅 **2× Runner-Up**  
-for applied AI innovation.
+🏅 **3× Gold Medalist** — National AI Competitions  
+🏅 **2× Runner-Up** — AI Product Innovation  
+⚡ Specializing in autonomous agents, inference optimization, and embedded intelligence.
 
 ---
 
-## 🧠 Core Specializations
-
-### 🤖 AI / ML / LLMs
-- Fine-tuning LLMs (GPT, Qwen, BERT)  
-- RAG systems (LangChain + FAISS)  
-- YOLOv8, TFLite, multimodal AI  
-- Model compression: QAT, PTQ, distillation  
-
-### 🎙️ Voice & Autonomous Agents
-- LiveKit Voice Agents (realtime)  
-- Twilio SIP integrations  
-- Deepgram STT • NovaSonic / Bedrock TTS  
-- Multi-tenant agent platforms  
-
-### 🔧 Edge & Embedded Systems
-- Jetson Nano • Raspberry Pi 5  
-- TFLite • TensorRT • OBD-II analytics  
-- Sensor fusion + low-latency pipelines  
-
-### 💻 Software Engineering
-- FastAPI • Flask • Node.js  
-- Async APIs, WebSockets, WebRTC  
-- Docker • CI/CD • AWS (Lambda, S3, Bedrock)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/divider-animated.svg" width="100%" alt="divider"/>
+</p>
 
 ---
 
-## 🏆 Achievements
+<!-- ========================= -->
+<!--      SKILLS SECTION       -->
+<!-- ========================= -->
 
-- 🥇 Gold — DAIRA AI Track  
-- 🥇 Gold — COMPEC Digital Technologies  
-- 🥇 Gold — Excite Cup Project Exhibition  
-- 🥈 Runner-up — NASCON NumAIsh  
-- 🥈 Runner-up — SOFTEC AI Innovation  
-- 🤝 Co-Head — Agentica @ TechConnect 2024
+## 🛠️ Core Skills (Animated Grid)
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,js,ts,cpp,fastapi,flask,nodejs,react,nextjs,linux,docker,aws,mongodb,postgres,redis,git,opencv" />
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&pause=900&color=0EA5E9&center=true&vCenter=true&width=550&lines=AI+Voice+Systems;LLM+Agents+and+Tool+Calling;RAG+%2B+Search+Pipelines;Edge+AI+Deployment;Computer+Vision+Optimization;OBD-II+Telematics+Analytics;Multimodal+AI+Systems" />
+
+</div>
 
 ---
 
-## 🧪 Featured Projects
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/divider-animated-2.svg" width="100%" alt="divider"/>
+</p>
 
 ---
+
+<!-- ========================= -->
+<!--     FEATURED PROJECTS     -->
+<!-- ========================= -->
+
+## 🚀 Featured Projects
 
 ### 🛣️ **Enhanced Driver Assist (EDA)**  
-**Edge AI • Computer Vision • OBD-II Fusion**
 
-- Dual-camera fatigue, distraction & drowsiness detection  
-- YOLOv8 + TFLite + TensorRT on Jetson Nano  
-- OBD-II based anomaly analytics  
-- Designed for low-power, real-time deployment  
+⚙️ *Edge AI • Jetson Nano • Computer Vision • OBD-II Fusion*  
+Responsive dual-camera safety system detecting fatigue, distraction & anomalies in real time.
 
-🔗 **Project Website:** https://eda-kdd.netlify.app/
+🔗 **Website:** https://eda-kdd.netlify.app/  
 
----
-
-### 🎙️ **LiveKit Voice Agent (Production-Ready)**  
-**LLM Voice AI • Multi-Tenant • Realtime Streaming**
-
-- Twilio SIP + LiveKit bidirectional audio  
-- Deepgram STT + Bedrock NovaSonic TTS  
-- Automated call summaries + structured outputs  
-- Custom tools (DB access, routing, context manager)  
-- Multi-tenant isolation with full logging pipeline  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-eda.svg" width="720" alt="EDA Project"/>
+</p>
 
 ---
 
-### 📊 **Visualization Chatbot**
-Turning natural-language into **live charts**, tables, visual analytics  
-(Pandas + LangChain + Plotly)
+### 🎙️ **LiveKit Voice Agent**  
+
+⚡ *Production Voice AI • Twilio SIP • Bedrock + Deepgram*  
+Fully autonomous multi-tenant voice assistant with streaming STT/TTS + LLM tool agents.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-voice.svg" width="720" alt="LiveKit Voice Agent"/>
+</p>
+
+---
+
+### 📊 **Visualization Chatbot**  
+
+Natural-language → executable analytics + real-time Plotly charts.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-viz.svg" width="720" alt="Visualization Chatbot"/>
+</p>
 
 ---
 
 ### 🧠 **Mulazmat — AI Resume Parser (NCAI-funded)**  
-- BERT-based resume parsing + skill extraction  
-- Job–candidate ranking  
-- Optimized for edge deployment (reduced latency)
+
+Optimized BERT parser for skill extraction + ranking, deployed on edge hardware.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-mulazmat.svg" width="720" alt="Mulazmat"/>
+</p>
 
 ---
 
-## 🧰 Tech Stack
+<!-- ========================= -->
+<!--     STATS SECTION         -->
+<!-- ========================= -->
+
+## 📊 GitHub Analytics
 
 <div align="center">
 
-### 🤖 AI & ML  
-`Python` • `PyTorch` • `TensorFlow` • `LangChain` • `HuggingFace` • `OpenCV` • `scikit-learn` • `CUDA`
+<img height="165" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=AliArfa852&theme=tokyonight&border_radius=8"/>
 
-### 🎙️ Voice & Realtime  
-`LiveKit` • `WebRTC` • `Twilio` • `Deepgram` • `NovaSonic` • `WebSockets`
-
-### 💻 Backend  
-`FastAPI` • `Flask` • `Node.js` • `AsyncIO` • `REST APIs` • `CI/CD`  
-
-### 🌐 Frontend  
-`React` • `Next.js` • `Tailwind`
-
-### 🗄 Databases  
-`MongoDB` • `MySQL` • `PostgreSQL` • `Redis`
-
-### 🛠 DevOps & Cloud  
-`AWS` • `Docker` • `GitHub Actions` • `Linux`
-
-### 🔌 Hardware  
-`Jetson Nano` • `Raspberry Pi` • `ESP32` • `OBD-II`
+<img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AliArfa852&layout=compact&theme=tokyonight&border_radius=8"/>
 
 </div>
 
 ---
 
-## 🔍 Currently Exploring
-
-- LLM quantization & distillation for mobile  
-- Multimodal (vision + speech + telemetry) fusion  
-- Realtime voice agent architectures  
-- High-efficiency CV on edge devices  
-- Autonomous LLM workflows & toolchains  
-
----
-
-## 📊 GitHub Stats
+## 🌐 Connect
 
 <div align="center">
 
-<img width="390" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=AliArfa852&theme=react&border_radius=10" />
-<br/>
+[![Email](https://img.shields.io/badge/Email-aliarfa852%40gmail.com-D14836?style=for-the-badge)](mailto:aliarfa852@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-AliArfa-blue?style=for-the-badge)](https://linkedin.com/in/aliarfa852)
 
-<br/>
+<br/><br/>
 
-<img width="340" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AliArfa852&langs_count=8&layout=compact&theme=react&border_radius=10" />
+<img src="https://komarev.com/ghpvc/?username=AliArfa852&color=brightgreen&style=flat-square"/>
 
 </div>
 
 ---
 
-## 📬 Connect
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-aliarfa852%40gmail.com-D14836?style=for-the-badge)](mailto:aliarfa852@gmail.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aliarfa852-0077B5?style=for-the-badge)](https://linkedin.com/in/aliarfa852)  
-
-<img src="https://komarev.com/ghpvc/?username=AliArfa852&color=brightgreen&style=flat-square" />
-
-</div>
-
----
-
-<div align="center">
-
-⭐ **If my work interests you — feel free to reach out or collaborate!** ⭐
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/footer-wave.svg" width="100%" alt="footer wave"/>
+</p>
