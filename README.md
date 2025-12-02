@@ -1,154 +1,142 @@
-# <div align="center">👋 Hi, I'm Ali Arfa</div>
-
 <div align="center">
-  
-  <img src="https://img.shields.io/badge/AI%20Voice%20%26%20Agents-6366F1?style=for-the-badge&logoColor=white" alt="AI Voice & Agents"/>
-  <img src="https://img.shields.io/badge/LLM%20Agents-10B981?style=for-the-badge&logoColor=white" alt="LLM Agents"/>
-  <img src="https://img.shields.io/badge/Data%20Science-3B82F6?style=for-the-badge&logoColor=white" alt="Data Science"/>
-  <img src="https://img.shields.io/badge/Edge%20Computing-F59E0B?style=for-the-badge&logoColor=white" alt="Edge Computing"/>
-  <img src="https://img.shields.io/badge/Full%20Stack-8B5CF6?style=for-the-badge&logoColor=white" alt="Full Stack"/>
-  
-</div>
 
-<div align="center">
-  <h3>🤖 AI Voice & LLM Agents Engineer | 🤖 Autonomous Agents Specialist | 📊 Data Scientist | ⚡ Edge Computing Specialist | 💻 Full Stack Developer </h3>
-</div>
+# 👋 Hi, I'm **Ali Arfa**
+
+### AI Engineer • LLM & Voice Agent Specialist • Edge AI Developer • Data Scientist
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&size=22&pause=1200&color=4F46E5&center=true&vCenter=true&width=700&lines=Building+Real-Time+AI+Voice+Agents;Designing+LLM+Tools+%26+Autonomous+Agents;Deploying+AI+on+Jetson+Nano+%26+Raspberry+Pi;Creating+Edge+AI+Systems+for+Real-World+Impact" />
+
+<br/>
+
+![AI Voice](https://img.shields.io/badge/AI_Voice_Agents-6366F1?style=for-the-badge)
+![LLM Agents](https://img.shields.io/badge/LLM_Agents-10B981?style=for-the-badge)
+![Edge AI](https://img.shields.io/badge/Edge_AI-F59E0B?style=for-the-badge)
+![Data Science](https://img.shields.io/badge/Data_Science-3B82F6?style=for-the-badge)
+![Full Stack](https://img.shields.io/badge/Full_Stack-8B5CF6?style=for-the-badge)
 
 ---
 
-Welcome to my GitHub! I work at the intersection of AI, Edge Computing, and Embedded Systems, building real-time, intelligent solutions that thrive in constrained environments—from NVIDIA Jetson to Raspberry Pi 5.
+</div>
 
-I specialize in **AI voice assistants** with real-time streaming capabilities using LiveKit and AWS, developing LLM-powered agents with tool calling and orchestration, and building intelligent systems that combine multi-modal AI with edge computing. I'm currently working on driver safety, multi-modal AI, and LLM-powered tools as part of my final year project and ongoing R&D in the KDD lab. My goal? Make tech smarter, faster, and more accessible—especially for real-world impact in developing regions.
+## 🚀 About Me
 
-## 🚀 What I Work On
+I work at the intersection of **AI**, **LLM Agents**, **edge computing**, and **embedded systems**, building real-time intelligent applications that run on both cloud and constrained devices (Jetson Nano, Raspberry Pi 5).
 
-### 🧠 AI/ML & LLMs
-- Fine-tuning LLMs like GPT, BERT, and Qwen for custom tasks
-- Building RAG-based assistants using LangChain, FAISS, and prompt engineering
-- Developing multi-modal pipelines (video + sensor + text)
-- Quantizing & distilling models for efficient edge deployment
+Specialized in:
 
-### 🤖 AI Voice & Agents
-- **AI Voice Assistants**: Real-time audio streaming with LiveKit, WebRTC, and AWS services
-- **LiveKit Voice Agents**: Building intelligent voice agents with LiveKit for real-time conversational AI
-- **LLM Agents**: Building autonomous agents with tool calling, function orchestration, and multi-step planning
-- **Speech Processing**: Speech-to-text and text-to-speech integration for conversational AI
-- **Cloud Integration**: Deploying scalable voice AI systems on AWS with low-latency inference
+- Real-time **AI voice systems** using LiveKit + AWS  
+- LLM agents with **tool calling**, reasoning, and orchestration  
+- Multimodal systems (vision + OBD-II + audio + text)  
+- Optimized inference via **quantization**, **distillation**, **TensorRT**  
+- Edge-first CV and sensor fusion for safety-critical applications  
 
-### 📊 Data Science
-- Data analysis and statistical modeling with Pandas, NumPy, and SciPy
-- Data visualization and experiment tracking for ML workflows
-- Dataset cleaning, feature engineering, and preprocessing pipelines
-- Performance analytics and optimization for production ML systems
-
-### 🔧 Embedded & Edge AI
-- C/C++ for performance-critical systems
-- ML on the edge: Jetson Nano, ESP32, Raspberry Pi, OBD-II
-- Camera-based vision + sensor fusion for low-latency alerts and tracking
-
-### 🌐 Full Stack Engineering
-- **Backend**: FastAPI, Flask, Node.js
-- **Frontend**: React, Tailwind, Next.js
-- Real-time ML/IoT dashboards via WebSockets, Flask-SocketIO, and Plotly/D3
-
+🏅 **3× Gold Medalist**  
+🏅 **2× Runner-Up**  
+for applied AI innovation.
 
 ---
 
-## 🧪 Projects That Define My Journey
+## 🧠 Core Specializations
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🛣️ Enhanced Driver Assist (EDA)</h3>
-      <ul>
-        <li>AI-on-the-edge for driver behavior monitoring and road safety</li>
-        <li>Dual-camera drowsiness, fatigue & distraction detection</li>
-        <li>Real-time alerts via OBD-II + vision fusion</li>
-        <li>Runs fully on Jetson Nano with Coral TPU acceleration</li>
-        <li><strong><a href="https://eda-kdd.netlify.app/" target="_blank">🌐 View Project Website</a></strong></li>
-      </ul>
-    </td>
-    <td width="50%">
-      <h3 align="center">🎙️ LiveKit Voice Agent</h3>
-      <ul>
-        <li>Production-ready multi-tenant voice agent system built on LiveKit Agents</li>
-        <li>Real-time voice-to-LLM interaction with Deepgram STT, ElevenLabs/AWS Bedrock TTS</li>
-        <li>Multi-tenant support with MongoDB integration, tenant-based routing, and complete data isolation</li>
-        <li>SIP/Phone call handling via Twilio with automatic call recording to S3</li>
-        <li>Customer management, conversation tracking, and post-call summaries with LLM-powered analysis</li>
-        <li>Extensible tool system with database query tools, call context management, and dynamic prompt assembly</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">📊 Data Science & Analytics Projects</h3>
-      <ul>
-        <li>Statistical analysis and predictive modeling with Python (Pandas, NumPy, SciPy)</li>
-        <li>Data visualization dashboards using Plotly, Matplotlib, and D3.js</li>
-        <li>Feature engineering and preprocessing pipelines for ML workflows</li>
-        <li>Experiment tracking and performance optimization for production systems</li>
-      </ul>
-    </td>
-    <td width="50%">
-      <h3 align="center">🧠 LLM-based Smart Assistants</h3>
-      <ul>
-        <li>Task-specific chatbots using RAG + fine-tuned models</li>
-        <li>Powered by LangChain, custom embeddings, and local LLMs</li>
-        <li>Handles research QnA, CV parsing, and educational use cases</li>
-        <li>Optimized for low-latency deployment on limited hardware</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### 🤖 AI / ML / LLMs
+- Fine-tuning LLMs (GPT, Qwen, BERT)  
+- RAG systems (LangChain + FAISS)  
+- YOLOv8, TFLite, multimodal AI  
+- Model compression: QAT, PTQ, distillation  
+
+### 🎙️ Voice & Autonomous Agents
+- LiveKit Voice Agents (realtime)  
+- Twilio SIP integrations  
+- Deepgram STT • NovaSonic / Bedrock TTS  
+- Multi-tenant agent platforms  
+
+### 🔧 Edge & Embedded Systems
+- Jetson Nano • Raspberry Pi 5  
+- TFLite • TensorRT • OBD-II analytics  
+- Sensor fusion + low-latency pipelines  
+
+### 💻 Software Engineering
+- FastAPI • Flask • Node.js  
+- Async APIs, WebSockets, WebRTC  
+- Docker • CI/CD • AWS (Lambda, S3, Bedrock)
+
+---
+
+## 🏆 Achievements
+
+- 🥇 Gold — DAIRA AI Track  
+- 🥇 Gold — COMPEC Digital Technologies  
+- 🥇 Gold — Excite Cup Project Exhibition  
+- 🥈 Runner-up — NASCON NumAIsh  
+- 🥈 Runner-up — SOFTEC AI Innovation  
+- 🤝 Co-Head — Agentica @ TechConnect 2024
+
+---
+
+## 🧪 Featured Projects
+
+---
+
+### 🛣️ **Enhanced Driver Assist (EDA)**  
+**Edge AI • Computer Vision • OBD-II Fusion**
+
+- Dual-camera fatigue, distraction & drowsiness detection  
+- YOLOv8 + TFLite + TensorRT on Jetson Nano  
+- OBD-II based anomaly analytics  
+- Designed for low-power, real-time deployment  
+
+🔗 **Project Website:** https://eda-kdd.netlify.app/
+
+---
+
+### 🎙️ **LiveKit Voice Agent (Production-Ready)**  
+**LLM Voice AI • Multi-Tenant • Realtime Streaming**
+
+- Twilio SIP + LiveKit bidirectional audio  
+- Deepgram STT + Bedrock NovaSonic TTS  
+- Automated call summaries + structured outputs  
+- Custom tools (DB access, routing, context manager)  
+- Multi-tenant isolation with full logging pipeline  
+
+---
+
+### 📊 **Visualization Chatbot**
+Turning natural-language into **live charts**, tables, visual analytics  
+(Pandas + LangChain + Plotly)
+
+---
+
+### 🧠 **Mulazmat — AI Resume Parser (NCAI-funded)**  
+- BERT-based resume parsing + skill extraction  
+- Job–candidate ranking  
+- Optimized for edge deployment (reduced latency)
 
 ---
 
 ## 🧰 Tech Stack
 
 <div align="center">
-  
-### 🤖 AI & ML
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-### 🎙️ Voice & Realtime
-![LiveKit](https://img.shields.io/badge/LiveKit-FF0000?style=flat-square&logo=livekit&logoColor=white)
-![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socket.io&logoColor=white)
+### 🤖 AI & ML  
+`Python` • `PyTorch` • `TensorFlow` • `LangChain` • `HuggingFace` • `OpenCV` • `scikit-learn` • `CUDA`
 
-### 💻 Languages & Frameworks
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+### 🎙️ Voice & Realtime  
+`LiveKit` • `WebRTC` • `Twilio` • `Deepgram` • `NovaSonic` • `WebSockets`
 
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+### 💻 Backend  
+`FastAPI` • `Flask` • `Node.js` • `AsyncIO` • `REST APIs` • `CI/CD`  
 
-### ⚙️ Platforms & Tools
-![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+### 🌐 Frontend  
+`React` • `Next.js` • `Tailwind`
+
+### 🗄 Databases  
+`MongoDB` • `MySQL` • `PostgreSQL` • `Redis`
+
+### 🛠 DevOps & Cloud  
+`AWS` • `Docker` • `GitHub Actions` • `Linux`
+
+### 🔌 Hardware  
+`Jetson Nano` • `Raspberry Pi` • `ESP32` • `OBD-II`
 
 </div>
 
@@ -156,53 +144,41 @@ I specialize in **AI voice assistants** with real-time streaming capabilities us
 
 ## 🔍 Currently Exploring
 
-- Distilling and quantizing LLMs for mobile & edge inference
-- Advanced multi-modal fusion techniques
-- Smart embedded systems for real-time accident prevention
-- Real-time AI voice assistants with streaming audio processing
-- LLM agent frameworks with advanced tool calling and planning
+- LLM quantization & distillation for mobile  
+- Multimodal (vision + speech + telemetry) fusion  
+- Realtime voice agent architectures  
+- High-efficiency CV on edge devices  
+- Autonomous LLM workflows & toolchains  
 
 ---
 
-## 🤝 Let's Collaborate On
-
-- 🤖 AI/LLM tooling and embedded systems
-- 🎙️ AI voice assistants and real-time streaming applications
-- 🚗 Real-time edge ML for safety and monitoring
-- 📊 Performance optimization and analytics
-- 🌍 AI projects targeting low-resource environments
-
----
-
-## 📊 Statistics
+## 📊 GitHub Stats
 
 <div align="center">
-  
-<img width="390" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=AliArfa852&count_private=true&theme=react&border_radius=10" alt="streak stats"/> <br>
 
-<img width="325" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AliArfa852&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+<img width="390" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=AliArfa852&theme=react&border_radius=10" />
 
-<br/>
+<img width="340" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AliArfa852&langs_count=8&layout=compact&theme=react&border_radius=10" />
+
+</div>
+
+---
+
+## 📬 Connect
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-aliarfa852%40gmail.com-D14836?style=for-the-badge)](mailto:aliarfa852@gmail.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aliarfa852-0077B5?style=for-the-badge)](https://linkedin.com/in/aliarfa852)  
+
+<img src="https://komarev.com/ghpvc/?username=AliArfa852&color=brightgreen&style=flat-square" />
 
 </div>
 
 ---
 
 <div align="center">
-  
-## 📬 Connect with Me
 
-[![Email](https://img.shields.io/badge/Email-aliarfa852%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aliarfa852@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aliarfa852/)
-
-<img src="https://komarev.com/ghpvc/?username=AliArfa852&color=brightgreen&style=flat-square" alt="Profile views"/>
-
-</div>
-
----
-
-<div align="center">
-  
-⭐ If anything resonates with you, feel free to star, fork, or reach out—let's build something meaningful together! ⭐
+⭐ **If my work interests you — feel free to reach out or collaborate!** ⭐
 
 </div>
