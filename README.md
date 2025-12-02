@@ -3,7 +3,11 @@
 <!-- ========================= -->
 
 <p align="center">
+<<<<<<< HEAD
   <img src="graphics/portfolio-banner.svg" width="100%" alt="Ali Arfa - AI Engineer"/>
+=======
+  <img src="./graphics/portfolio-banner.svg" width="100%" alt="Ali Arfa - AI Engineer"/>
+>>>>>>> b14b4643d4a9a78d3ae3658201c5193361d959eb
 </p>
 
 <!-- ========================= -->
@@ -40,6 +44,7 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 ## 🚀 Featured Projects
 
 <p align="center">
+<<<<<<< HEAD
   <img src="graphics/project-card-eda.svg" width="100%" style="max-width: 900px;" alt="Enhanced Driver Assist (EDA) Project Card"/>
 </p>
 
@@ -55,6 +60,35 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 
 <p align="center">
   <img src="graphics/project-card-voice.svg" width="100%" style="max-width: 900px;" alt="LiveKit Voice Agent Project Card"/>
+=======
+  <object data="./graphics/project-card-eda.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+    <div>
+      <h3>🛣️ Enhanced Driver Assist (EDA)</h3>
+      <p>⚙️ Edge AI • Jetson Nano • Computer Vision • OBD-II Fusion</p>
+      <p>Responsive dual-camera safety system detecting fatigue, distraction & anomalies in real time.</p>
+      <p>🔗 <a href="https://eda-kdd.netlify.app/">Website</a></p>
+    </div>
+  </object>
+</p>
+
+<p align="center">
+  <object data="./graphics/project-card-voice.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+    <div>
+      <h3>🎙️ LiveKit Voice Agent</h3>
+      <p>⚡ Production Voice AI • Twilio SIP • Bedrock + Deepgram</p>
+      <p>Fully autonomous multi-tenant voice assistant with streaming STT/TTS + LLM tool agents.</p>
+    </div>
+  </object>
+</p>
+
+<p align="center">
+  <object data="./graphics/project-card-viz.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+    <div>
+      <h3>📊 Visualization Chatbot</h3>
+      <p>Natural-language → executable analytics + real-time Plotly charts.</p>
+    </div>
+  </object>
+>>>>>>> b14b4643d4a9a78d3ae3658201c5193361d959eb
 </p>
 
 <!-- Fallback text for LiveKit (uncomment if SVG doesn't load):
@@ -68,7 +102,16 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 -->
 
 <p align="center">
+<<<<<<< HEAD
   <img src="graphics/project-card-viz.svg" width="100%" style="max-width: 900px;" alt="Visualization Chatbot Project Card"/>
+=======
+  <object data="./graphics/project-card-mulazmat.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+    <div>
+      <h3>🧠 Mulazmat — AI Resume Parser (NCAI-funded)</h3>
+      <p>Optimized BERT parser for skill extraction + ranking, deployed on edge hardware.</p>
+    </div>
+  </object>
+>>>>>>> b14b4643d4a9a78d3ae3658201c5193361d959eb
 </p>
 
 <!-- Fallback text for Visualization Chatbot (uncomment if SVG doesn't load):
