@@ -30,12 +30,13 @@ I specialize in **AI voice assistants** with real-time streaming capabilities us
 
 ### 🤖 AI Voice & Agents
 - **AI Voice Assistants**: Real-time audio streaming with LiveKit, WebRTC, and AWS services
+- **LiveKit Voice Agents**: Building intelligent voice agents with LiveKit for real-time conversational AI
 - **LLM Agents**: Building autonomous agents with tool calling, function orchestration, and multi-step planning
 - **Speech Processing**: Speech-to-text and text-to-speech integration for conversational AI
 - **Cloud Integration**: Deploying scalable voice AI systems on AWS with low-latency inference
 
-### 📊 Data Science & EDA
-- Exploratory data analysis (EDA) with Pandas, NumPy, and statistical modeling
+### 📊 Data Science
+- Data analysis and statistical modeling with Pandas, NumPy, and SciPy
 - Data visualization and experiment tracking for ML workflows
 - Dataset cleaning, feature engineering, and preprocessing pipelines
 - Performance analytics and optimization for production ML systems
@@ -64,27 +65,29 @@ I specialize in **AI voice assistants** with real-time streaming capabilities us
         <li>Dual-camera drowsiness, fatigue & distraction detection</li>
         <li>Real-time alerts via OBD-II + vision fusion</li>
         <li>Runs fully on Jetson Nano with Coral TPU acceleration</li>
-        <li><em>Note: EDA here refers to Enhanced Driver Assist; I also work extensively on Exploratory Data Analysis (EDA) for ML projects</em></li>
+        <li><strong><a href="https://eda-kdd.netlify.app/" target="_blank">🌐 View Project Website</a></strong></li>
       </ul>
     </td>
     <td width="50%">
-      <h3 align="center">🤖 Cognitive Chatbot</h3>
+      <h3 align="center">🎙️ LiveKit Voice Agent</h3>
       <ul>
-        <li>Conversational AI assistant with domain-specific knowledge</li>
-        <li>Built with LangChain, Vector DB, and custom embeddings</li>
-        <li>Features multi-turn context retention and query refinement</li>
-        <li>Deployed via containerized microservices architecture</li>
+        <li>Production-ready multi-tenant voice agent system built on LiveKit Agents</li>
+        <li>Real-time voice-to-LLM interaction with Deepgram STT, ElevenLabs/AWS Bedrock TTS</li>
+        <li>Multi-tenant support with MongoDB integration, tenant-based routing, and complete data isolation</li>
+        <li>SIP/Phone call handling via Twilio with automatic call recording to S3</li>
+        <li>Customer management, conversation tracking, and post-call summaries with LLM-powered analysis</li>
+        <li>Extensible tool system with database query tools, call context management, and dynamic prompt assembly</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">🎥 Video Frame Prediction Engine</h3>
+      <h3 align="center">📊 Data Science & Analytics Projects</h3>
       <ul>
-        <li>Future frame forecasting using ConvLSTM/PredRNN on UCF101</li>
-        <li>Predicts motion and actions from historical video frames</li>
-        <li>Focused on smooth transitions and temporal consistency</li>
-        <li>Trained on grayscale (64x64) input for edge feasibility</li>
+        <li>Statistical analysis and predictive modeling with Python (Pandas, NumPy, SciPy)</li>
+        <li>Data visualization dashboards using Plotly, Matplotlib, and D3.js</li>
+        <li>Feature engineering and preprocessing pipelines for ML workflows</li>
+        <li>Experiment tracking and performance optimization for production systems</li>
       </ul>
     </td>
     <td width="50%">
