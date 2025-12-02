@@ -3,7 +3,7 @@
 <!-- ========================= -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/portfolio-banner.svg" width="100%" alt="Ali Arfa - AI Engineer"/>
+  <img src="./graphics/portfolio-banner.svg" width="100%" alt="Ali Arfa - AI Engineer"/>
 </p>
 
 <div align="center">
@@ -50,7 +50,7 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 ## 🚀 Featured Projects
 
 <p align="center">
-  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-eda.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+  <object data="./graphics/project-card-eda.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
     <div>
       <h3>🛣️ Enhanced Driver Assist (EDA)</h3>
       <p>⚙️ Edge AI • Jetson Nano • Computer Vision • OBD-II Fusion</p>
@@ -61,7 +61,7 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 </p>
 
 <p align="center">
-  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-voice.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+  <object data="./graphics/project-card-voice.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
     <div>
       <h3>🎙️ LiveKit Voice Agent</h3>
       <p>⚡ Production Voice AI • Twilio SIP • Bedrock + Deepgram</p>
@@ -71,7 +71,7 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 </p>
 
 <p align="center">
-  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-viz.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+  <object data="./graphics/project-card-viz.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
     <div>
       <h3>📊 Visualization Chatbot</h3>
       <p>Natural-language → executable analytics + real-time Plotly charts.</p>
@@ -80,7 +80,7 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 </p>
 
 <p align="center">
-  <object data="https://raw.githubusercontent.com/AliArfa852/AliArfa852/main/graphics/project-card-mulazmat.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
+  <object data="./graphics/project-card-mulazmat.svg" type="image/svg+xml" width="100%" style="max-width: 900px;">
     <div>
       <h3>🧠 Mulazmat — AI Resume Parser (NCAI-funded)</h3>
       <p>Optimized BERT parser for skill extraction + ranking, deployed on edge hardware.</p>
