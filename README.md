@@ -100,23 +100,18 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 
 ## 📊 GitHub Analytics
 
-<table>
-<tr>
-<td width="50%">
-
-<img height="165" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=AliArfa852&theme=tokyonight&border_radius=8" width="100%"/>
-
-</td>
-<br
-
-<td width="50%">
-
-<img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AliArfa852&layout=compact&theme=tokyonight&border_radius=8" width="100%"/>
-
-</td>
-</tr>
-
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <img height="165" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=AliArfa852&theme=tokyonight&border_radius=8" width="100%"/>
+      </td>
+      <td width="50%">
+        <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AliArfa852&layout=compact&theme=tokyonight&border_radius=8" width="100%"/>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 🌐 Connect
 
