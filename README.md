@@ -116,22 +116,6 @@ I build **real-time AI systems** across **LLMs**, **voice agents**, **multimodal
 </td>
 </tr>
 
-## 🏆 GitHub Achievements
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AliArfa852&theme=tokyonight&no-frame=true&row=1&column=6" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AliArfa852&theme=tokyo-night&hide_border=true" width="100%"/>
-</p>
-
-<p align="center">
-  <!-- GitHub Trophies / Badges -->
-  <img src="https://github-profile-trophy.vercel.app/?username=AliArfa852&theme=tokyonight&no-frame=true&row=1&column=6" width="100%" />
-</p>
-
-
 </table>
 
 ## 🌐 Connect
