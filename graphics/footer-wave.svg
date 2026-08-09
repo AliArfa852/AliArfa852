@@ -1,21 +1,25 @@
-<!-- footer-wave.svg -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 120" preserveAspectRatio="none" width="1600" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="120" viewBox="0 0 1600 120" preserveAspectRatio="none" role="img" aria-label="Section footer">
+  <title>Section footer</title>
   <defs>
-    <linearGradient id="fgrad" x1="0" x2="1">
-      <stop offset="0" stop-color="#14B8A6" stop-opacity="0.9"/>
-      <stop offset="0.5" stop-color="#2563EB" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#4F46E5" stop-opacity="0.9"/>
+    <linearGradient id="ft-fill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#6366F1"/>
     </linearGradient>
-    <style>
-      .wave { fill: url(#fgrad); opacity: 0.12; }
-    </style>
+
+    <linearGradient id="ft-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3B82F6" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
-  <path class="wave" d="M0 40 C300 10 600 70 900 40 C1200 10 1500 70 1600 40 L1600 120 L0 120 Z">
-    <animate attributeName="d" dur="18s" repeatCount="indefinite"
-      values="
-        M0 40 C300 10 600 70 900 40 C1200 10 1500 70 1600 40 L1600 120 L0 120 Z;
-        M0 40 C320 20 620 50 920 40 C1220 30 1520 80 1600 40 L1600 120 L0 120 Z;
-        M0 40 C300 10 600 70 900 40 C1200 10 1500 70 1600 40 L1600 120 L0 120 Z"/>
-  </path>
+  <rect x="0" y="10" width="1600" height="2" fill="url(#ft-rule)"/>
+
+  <path d="M0 70 C260 34 520 100 800 66 C1080 32 1340 92 1600 58 L1600 120 L0 120 Z"
+        fill="url(#ft-fill)" fill-opacity="0.10"/>
+  <path d="M0 84 C240 54 500 108 780 80 C1060 52 1340 104 1600 76 L1600 120 L0 120 Z"
+        fill="url(#ft-fill)" fill-opacity="0.16"/>
+  <path d="M0 98 C220 76 480 114 760 96 C1040 78 1340 112 1600 92 L1600 120 L0 120 Z"
+        fill="url(#ft-fill)" fill-opacity="0.26"/>
 </svg>
